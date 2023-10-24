@@ -1,4 +1,4 @@
-# Các bài giải trong môn thuật toán ứng dụng
+#  Thuật toán ứng dụng
 
 _ Các bài giải trong slide.
 
