@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/TTUD/Quay_lui",
-      "program": "d:/TTUD/Quay_lui/build/Debug/outDebug",
+      "cwd": "d:/TTUD/69_Bai_tap",
+      "program": "d:/TTUD/69_Bai_tap/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
