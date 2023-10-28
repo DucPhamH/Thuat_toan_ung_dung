@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/TTUD/69_Bai_tap",
-      "program": "d:/TTUD/69_Bai_tap/build/Debug/outDebug",
+      "cwd": "d:/TTUD/Giai_slide/Chia_de_tri",
+      "program": "d:/TTUD/Giai_slide/Chia_de_tri/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
