@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/TTUD/69_Bai_tap",
-      "program": "d:/TTUD/69_Bai_tap/build/Debug/outDebug",
+      "cwd": "d:/TTUD/Thuc_Hanh_TTUD/WEEK_3",
+      "program": "d:/TTUD/Thuc_Hanh_TTUD/WEEK_3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
