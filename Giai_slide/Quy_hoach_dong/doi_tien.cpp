@@ -14,8 +14,21 @@ int minCoin(int i, int x){
     res = min(res, minCoin(i-1, x));
     iMem[i][x] = res;
     return res;
+
 }
 
+// void trace(int i, int x){
+//     if(x == 0) return;
+//     if(x < 0) return;
+//     if(i == 0) return;
+
+//     int res = INF;
+//     if(iMem[i][x] == 1 + iMem[i][x - D[i]]){
+//         cout << D[i] << " ";
+//         trace(i, x - D[i]);
+//     }
+//     else trace(i-1, x);
+// }
 int main()
 {
     ios_base::sync_with_stdio(false);
@@ -26,8 +39,16 @@ int main()
     for(int i = 1; i <= n; i++){
         cin >> D[i];
     }
-    int ans = minCoin(n, x);
-    if(ans == INF) cout << -1;
-    else cout << ans;
+    minCoin(n, x);
+    int ans = iMem[n][x];
+    cout << ans << endl;
+    for(int i = n; k = 0; k < ans; ++k){
+        if(iMem[i][k] == 1 + iMem[i][x-D[i]]){
+            cout << D[i] << " ";
+            x -= D[i];
+        }else {
+            --i;
+        }
+    }
     return 0;
 }
