@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 20;
-const INF = 100000000;
+int INF = 100000000;
 int n;
 int C[N][N], mem[N][1 << N];
 
