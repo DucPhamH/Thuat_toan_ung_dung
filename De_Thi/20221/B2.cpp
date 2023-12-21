@@ -16,9 +16,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
-
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
@@ -30,6 +27,7 @@ int main(){
       cin >> p;
       a.push_back(p);
     }
+    sort(a.begin(), a.end());
 
     string temp,temp2, input;
 
@@ -41,7 +39,6 @@ int main(){
           split >> temp;
           // cout << temp << endl;
           if(temp == "delete-max"){
-            sort(a.begin(), a.end());
             int t = a.back();
             res.push_back(t);
             a.pop_back();
@@ -50,6 +47,7 @@ int main(){
             // cout << temp2 << endl;
             int s = stoi(temp2);
             a.push_back(s);
+            sort(a.begin(), a.end());
           }
         }else break;
     }

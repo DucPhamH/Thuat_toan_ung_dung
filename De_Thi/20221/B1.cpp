@@ -34,6 +34,7 @@
 #include <iostream>
 using namespace std;
 
+
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
@@ -51,7 +52,10 @@ int main() {
     for (int i = 0; i < k; ++i) {
         sum += a[i];
     }
-
+  
+    // input 6 3 9
+    //       3 2 4 3 2 1
+    // output 3
     // Kiểm tra cửa sổ đầu tiên
     if (sum == m) {
         res++;
