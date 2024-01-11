@@ -27,7 +27,7 @@ int main()
     while(i < n && j < m){
         if(a[i] < b[j]){
             c[k++] = a[i];
-            ++i;
+            ++i; 
         } else {
             c[k++] = b[j];
             ++j;

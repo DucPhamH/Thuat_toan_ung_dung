@@ -4,7 +4,7 @@
 
 #include <iostream>
 using namespace std;
-const int MAX = 100;
+const int MAX = 100005;
 int a[MAX], n, A, B, res = 0;
 
 void findSubsets(int nums[], int n)
@@ -29,7 +29,7 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
-    cin >> n >> A >> B;
+    cin >> n ;
     for(int i = 0; i < n; i++){
         cin >> a[i];
     }
