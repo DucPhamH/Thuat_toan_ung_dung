@@ -12,6 +12,9 @@ void input(){
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
+    for(int i =1;i<=n;i++){
+        sort(adj[i].begin(), adj[i].end());
+    }
 }
 
 void BFS(int u){

@@ -1,0 +1,47 @@
+// bài 1 :
+// cho mot day gom các so nguyen a1, a2, .... an. Mot day con k-phan tu cua day da cho  
+là một dãy gồm k phần tử liên tiếp ai,ai+1....ai+k-1. Trọng số của dãy k-phần tử là tổng của các phần tử tttrong dãy con
+này. Cho hai số nguyên dương k và m. Tính Q là số lượng dãy con k-phần tử sao cho trognj số của mỗi dãy con đều bằng m
+ 
+input 
+. Dòng 1 chứa 3 số nguyên dương n, k, m (1<=n<=10^5, 1<=k<=n/2, 1<=m<=10^6)
+. Dòng 2 : a1, a2 , ...an(1<=ai<=10000)
+ 
+output:
+. ghi ra giá trị Q
+ 
+VD
+6 3 9                              Q= 3
+3 2 4 3 2 1                                
+
+// Bài 2
+cho một dãy gồm n số nguyên phân biệt ( đôi một khác nhau) a1, a2, ...an. Cho hai số nguyên 
+dương A và  . Tính Q là số tập con của dãy n số nguyên đã cho dao cho tổng các phần tử trong
+mỗi tập con lớn hơn hoặc bằng A và nhỏ hơn hoặc bằng B.
+ 
+INPPUT
+. DÒng 1 : chứa n, A, B (4<=n<=20, 1<=A<=B<=100)
+.Dòng 2: CHứa a1,a2,a3...., an(1<=a1<=50)
+OUTPUT
+ghi ra giá trị của Q
+
+//bài 4: cho 1 dãy gồm các số nguyên dương a1, a2,..an. tìm tập con của dãy đã cho sao cho tổng các phần tử trong tập con là 
+lớn nhất và trong tập con không chứa 2 phần tử liên tiếp nào của dãy đã cho
+input: dòng 1 chứa 1 số nguyên dương n <=100000
+       dòng 2 chứa a1, a2, ... , an (1<ai<1000)
+output: tổng các phần tử của tập con tìm đc
+ 
+vd: in:5            out:13
+       2 5 4 6 7       
+(tập con là 2 4 7 )
+
+//BÀI 3
+cho một dãy gồm n số nguyên phân biệt ( đôi một khác nhau) a1, a2, ...an. Cho hai số nguyên 
+dương A và  . Tính Q là số tập con của dãy n số nguyên đã cho dao cho tổng các phần tử trong
+mỗi tập con lớn hơn hoặc bằng A và nhỏ hơn hoặc bằng B.
+ 
+INPPUT
+. DÒng 1 : chứa n, A, B (4<=n<=20, 1<=A<=B<=100)
+.Dòng 2: CHứa a1,a2,a3...., an(1<=a1<=50)
+OUTPUT
+ghi ra giá trị của Q
